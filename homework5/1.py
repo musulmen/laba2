@@ -1,5 +1,5 @@
 def get_number():
-    for num in range(1, 29, 2):
+    for num in range(0, 29, 2):
         yield num
 
 n = list(get_number())
